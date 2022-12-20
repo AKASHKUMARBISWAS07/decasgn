@@ -1,0 +1,276 @@
+html,body{
+    background-color: rgb(24, 24, 24);
+    margin-top: -5px;
+}
+
+.s1{
+margin-left: -10px;
+position: absolute;
+width: 365px;
+height: 12px;
+padding: 8PX;
+color: aliceblue;
+background-color: rgb(57, 54, 54);
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s1:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.s2{
+position: absolute;
+margin-left: 380px;
+width: 375px;
+height: 12px;
+padding: 8PX;
+background-color: rgb(58, 57, 57);
+color: aliceblue;
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s2:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.s3{
+margin-left: 780px;
+position: absolute;
+width: 355px;
+height: 12px;
+padding: 8PX;
+background-color: rgb(55, 55, 55);
+color: aliceblue;
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s3:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.s4{
+margin-left:1160px;
+position: absolute;
+width: 350px;
+height: 12px;
+padding: 8PX;
+color: aliceblue;
+background-color: rgb(55, 55, 55);
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s4:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.s5{
+margin-left: -10px;
+margin-top: 750px;
+position: absolute;
+width: 365px;
+height: 12px;
+padding: 8PX;
+color: aliceblue;
+background-color: rgb(57, 54, 54);
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s5:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.s6{
+position: absolute;
+margin-left: 380px;
+margin-top: 750px;
+width: 375px;
+height: 12px;
+padding: 8PX;
+background-color: rgb(58, 57, 57);
+color: aliceblue;
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s6:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.s7{
+margin-left: 780px;
+margin-top: 750px;
+position: absolute;
+width: 355px;
+height: 12px;
+padding: 8PX;
+background-color: rgb(55, 55, 55);
+color: aliceblue;
+border: 3px solid rgb(255, 254, 251);
+}
+
+.s7:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.s8{
+    margin-left:1160px;
+    margin-top: 750px;
+    position: absolute;
+    width: 350px;
+    height: 12px;
+    padding: 8PX;
+    color: aliceblue;
+    background-color: rgb(55, 55, 55);
+    border: 3px solid rgb(255, 254, 251); 
+}
+
+
+.s8:hover{
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mid{
+    position: absolute;
+    width: 300px;
+    height: 260px;
+    background-color: aqua;
+    margin-left: 40%;
+    margin-top: 18%;
+    border-radius: 50%;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-delay: 0s;
+    animation-name: mid;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;    
+}
+
+@keyframes mid{
+    10%{
+        background: red;
+    }
+
+    20%{
+        background: white;
+    }
+
+    30%{
+        background: rgb(37, 196, 220);
+    }
+
+    40%{
+        background: violet;
+    }
+
+    50%{
+        background: blue;
+    }
+
+    70%{
+        background: rgb(170, 19, 104);
+    }
+
+    80%{
+        background: green;
+    }
+
+    100%{
+        background: yellow;
+    }
+
+}
+
+.mid:hover{
+    border-radius: 10%;
+    width: 350px;
+    height: 300px;
+}
+
+
+@media (min-width:0px)and (max-width:819px){
+
+html,body{
+    margin-top: 0%;
+}
+
+.s1{
+    width: 70px;
+    margin-top: 0%;
+}
+.s2{
+    width: 70px;
+    margin-left: 72px;
+    margin-top: 0%;
+}
+.s3{
+    font-size: 10px;
+    width: 70px;
+    height: 10px;
+    margin-top: 0%;
+    margin-left: 165px;
+}
+.s4{
+    width: 70px;
+    margin-left: 258px;
+    margin-top: 0%;
+}
+
+
+.mid{
+    margin-top: 60%;
+    margin-left: 80px;
+    width: 200px;
+    height: 150px;
+}
+.mid:hover{
+    border-radius: 10%;
+    width: 210px;
+    height: 150px;
+}
+
+.s5{
+    width: 70px;
+    margin-top: 605px;
+}
+.s6{
+    width: 70px;
+    margin-left: 72px;
+    margin-top: 605px;
+}
+.s7{
+    font-size: 10px;
+    width: 70px;
+    margin-left: 165px;
+    margin-top: 605px;
+}
+.s8{
+    width: 70px;
+    margin-left: 258px;
+    margin-top: 605px;
+}
+
+}
